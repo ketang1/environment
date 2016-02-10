@@ -115,7 +115,7 @@ fi
 
 
 if [ -f ~/.git-completion.bash ]; then 
-    source .git-completion.bash 
+    source ~/.git-completion.bash 
 fi
 
 PS1='\w$(__git_ps1 "(%s)") $ '
