@@ -117,7 +117,8 @@ fi
 
 
 if [ -f ~/.git-completion.bash ]; then 
-    source ~/.git-completion.bash 
+    # source ~/.git-completion.bash 
+    source .git-prompt.sh
 fi
 
 PS1='\w$(__git_ps1 "(%s)") $ '
@@ -128,11 +129,9 @@ PATH=$PATH:$GRADLE_HOME
 export PATH
 
 
-export PATH=/opt/idea/bin:$PATH
-
 # emulate middle mouse button to copy paste
 # sudo apt-get install xkbset
-xkbset m
+# xkbset m
 
 
 
