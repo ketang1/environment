@@ -282,5 +282,6 @@ call pathogen#infect()
 " let perl_fold=1
 " nnoremap <Space> za
 
-
+"" UndotreeToggle - history tree of changes
+nnoremap <F5> :UndotreeToggle<cr>
 
