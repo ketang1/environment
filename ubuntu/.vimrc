@@ -285,3 +285,6 @@ call pathogen#infect()
 "" UndotreeToggle - history tree of changes
 nnoremap <F5> :UndotreeToggle<cr>
 
+"" NERDTreeToggle - filesystem tree explorer
+set encoding=utf-8
+nnoremap <F6> :NERDTreeToggle<cr>
