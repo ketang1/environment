@@ -117,7 +117,7 @@ fi
 
 
 source ~/.git-completion.bash 
-source .git-prompt.sh
+source ~/.git-prompt.sh
 
 PS1='\w$(__git_ps1 "(%s)") $ '
 
