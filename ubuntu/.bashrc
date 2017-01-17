@@ -116,10 +116,8 @@ if ! shopt -oq posix; then
 fi
 
 
-if [ -f ~/.git-completion.bash ]; then 
-    # source ~/.git-completion.bash 
-    source .git-prompt.sh
-fi
+source ~/.git-completion.bash 
+source .git-prompt.sh
 
 PS1='\w$(__git_ps1 "(%s)") $ '
 
