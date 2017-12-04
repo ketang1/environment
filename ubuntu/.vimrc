@@ -288,3 +288,6 @@ nnoremap <F5> :UndotreeToggle<cr>
 "" NERDTreeToggle - filesystem tree explorer
 set encoding=utf-8
 nnoremap <F6> :NERDTreeToggle<cr>
+
+"" blue comments are hard to see, make it more visible
+set bg=dark
